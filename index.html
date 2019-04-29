@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Vegaburguer</title>
+</head>
+
+<body>
+    <header>
+
+
+    </header>
+
+    <div class="container">
+            <h2>SELECCIÓN DE PRODUCTOS</h2>
+        <table>
+        
+            <tr>
+                <td>BEBIDAS</td>
+                <td>HAMBURGESAS</td>
+               <td></td>
+            </tr>
+            <tr>
+                <td><button type="submit" id="cola" value="1" onclick="seleccionarProducto(0)">COLAVEGA</button></td>
+                <td><button type="submit" id="burguervega" value="2" onclick="seleccionarProducto(1)">BURGUERVEGA</button></td>
+                <td><select name="mesa" id="mesa">
+                        <option value="1">MESA 1</option>
+                        <option value="2">MESA 2</option>
+                        <option value="3">MESA 3</option>
+                        <option value="4">MESA 4</option>
+                        <option value="5">MESA 5 (terraza)</option>
+                        <option value="6">MESA 6 (terraza)</option>
+                        <option value="7">MESA 7 (terraza)</option>
+                        <option value="8">MESA 8 (terraza)</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><button type="submit" id="fanta" value="1" onclick="seleccionarProducto(2)">FANTAVEGA</button></td>
+                <td><button type="submit" id="burguer" value="3.5" onclick="seleccionarProducto(3)">BURGUERDEVERDAD</button></td>
+                <td><button type="submit" id="confirmar" onclick="confirmar()">CONFIRMAR</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
